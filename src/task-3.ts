@@ -1,5 +1,5 @@
 interface User {
-    id?: number | string;
+    readonly id: number | string;
     name: string;
     age: number;
     active: boolean;
